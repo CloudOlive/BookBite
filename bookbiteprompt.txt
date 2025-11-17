@@ -1,0 +1,79 @@
+I want to build a browser-based chat application where I can upload books 
+and have AI-powered conversations about them. I'm a complete beginner to 
+coding.
+
+PROJECT REQUIREMENTS:
+
+1. TECH STACK:
+   - Frontend: React with modern hooks (useState, useEffect, useRef)
+   - Styling: Tailwind CSS for clean, responsive design
+   - File handling: Support for .txt files initially (we'll add PDF later)
+   - AI Integration: Anthropic Claude API (I'll provide the API key)
+
+2. FEATURES NEEDED:
+
+   Phase 1 (Build this first):
+   - Clean chat interface with message history
+   - File upload button to load book files (.txt format)
+   - Display which book is currently loaded
+   - Text input with send button
+   - Messages display in conversation format (user right, AI left)
+   - Loading indicator when AI is thinking
+   - Clear chat button
+
+   Phase 2 (We'll add later):
+   - Connect to Anthropic Claude API
+   - Include book content in AI prompts
+   - Handle longer books by chunking content
+   - Add PDF support using pdf-parse library
+   - Save conversation history
+
+3. CODE STRUCTURE:
+   - Use functional React components
+   - Keep state management simple with useState
+   - Write clean, well-commented code so I can learn
+   - Use modern ES6+ JavaScript syntax
+
+4. UI DESIGN:
+   - Modern, clean interface
+   - Good contrast and readability
+   - Mobile responsive
+   - Pleasant color scheme (blues/purples suggested)
+   - Clear visual feedback for all actions
+
+5. SPECIFIC TECHNICAL REQUIREMENTS:
+   - FileReader API for reading uploaded files
+   - Proper error handling for file uploads
+   - Scroll to bottom when new messages arrive
+   - Enter key to send messages
+   - Disable send button when empty or loading
+
+STEP-BY-STEP INSTRUCTIONS:
+
+Step 1: Set up a new React app using create-react-app
+Step 2: Create the main App component with all necessary state
+Step 3: Build the UI with three sections: header, messages area, input area
+Step 4: Implement file upload functionality
+Step 5: Create message sending and display logic
+Step 6: Add placeholder for AI responses (we'll connect real AI next)
+Step 7: Style everything with Tailwind
+
+IMPORTANT NOTES:
+- Start with simulated AI responses (just echo back with a note)
+- Make sure I can upload a .txt file and see it load
+- Add helpful comments explaining what each part does
+- Use icons from lucide-react library
+- Keep the code in a single App.js file for now
+
+Please create the complete project structure and walk me through:
+1. What commands to run to set it up
+2. What files to create/modify
+3. How to run the app locally
+4. What each major code section does
+
+After this is working, we'll add:
+- Real Anthropic Claude API integration
+- PDF file support
+- Conversation persistence
+- Multiple book management
+
