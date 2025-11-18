@@ -1,4 +1,4 @@
-# BookBite - AI Book Chat Application
+# BookBite - AI Novel Chat Application
 
 A modern, browser-based chat application where you can upload books and have AI-powered conversations about them. Built with React, Tailwind CSS, and designed for easy learning.
 
